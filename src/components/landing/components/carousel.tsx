@@ -1,15 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import img1 from '../../../../public/img1.png';
+import img2 from '../../../../public/img2.png';
+import img3 from '../../../../public/img3.png';
+import img4 from '../../../../public/img4.png';
+import img5 from '../../../../public/img5.png';
+import img6 from '../../../../public/img6.png';
 
-const images = [
-  "../../../../public/img1.png",
-  "../../../../public/img2.png",
-  "../../../../public/img3.png",
-  "../../../../public/img4.png",
-  "../../../../public/img5.png",
-  "../../../../public/img6.png",
-];
+const images = [img1, img2, img3, img4, img5, img6];
+
+
 
 const Carousel = () => {
   const [scrollWidth, setScrollWidth] = useState(0);
