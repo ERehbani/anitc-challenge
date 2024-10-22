@@ -3,12 +3,12 @@ import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  "/public/img1.png",
-  "/public/img2.png",
-  "/public/img3.png",
-  "/public/img4.png",
-  "/public/img5.png",
-  "/public/img6.png",
+  "../../../../public/img1.png",
+  "../../../../public/img2.png",
+  "../../../../public/img3.png",
+  "../../../../public/img4.png",
+  "../../../../public/img5.png",
+  "../../../../public/img6.png",
 ];
 
 const Carousel = () => {

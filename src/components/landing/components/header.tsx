@@ -1,11 +1,15 @@
 import { Button } from "@/components/ui/button";
-import { Drawer, DrawerContent, DrawerHeader, DrawerTrigger } from "@/components/ui/drawer";
+import {
+  Drawer,
+  DrawerContent,
+  DrawerHeader,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
 import { ChevronDown, Menu } from "lucide-react";
-
 
 const Header = () => {
   return (
-    <section className="h-screen bg-[#F3EEE8] lg:flex lg:flex-row-reverse  lg:mx-auto lg:gap-8 lg:w-full">
+    <section className="h-screen bg-[#F3EEE8] lg:flex lg:flex-row-reverse  lg:mx-auto lg:gap-8 lg:w-full ">
       <div className="lg:relative lg:h-full absolute w-full">
         <img
           src="https://s3-alpha-sig.figma.com/img/17e1/3420/2e3130d914626b07ec182fc5179ca5d0?Expires=1730678400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qJJUlR8B9rxzouqEjZIW2XJkNL304qjwjjuXOw~DpHiR8dVECGMGGx8fa8s0bvH71QhDOOApi2eYq5Pi9eYOYJVpJPdAThdTrWvTNUv2gXhNTLFUdyJZJcpHB8-Bel1hXbbpCZG4VI8BBwULaiHQvlpC32k3QjjnT6eJEvNt-Bodyt4GTCZXwO5375vdzcKNZVPnew3WjJrtK0c4N5ICaK3ulQG8cyQ4aisi6cpcvHLH1iFuEWWc3NIPpBvy-EDLTMaiNWkf71VKmMMXW4om9hD6~UIFj8hRyFN~wKgyarkM~9V8Tfsw0km5PHOt2hpPzQ0JonT2uy1SzcsV-KDJbg__"
@@ -14,9 +18,9 @@ const Header = () => {
         />
       </div>
       <div className="relative h-full lg:static lg:w-full">
-        <div className="mx-auto h-full flex flex-col">
-          <header className="mx-auto py-6 flex justify-between items-center space-x-8  max-sm:w-full max-sm:justify-around">
-            <h1 className="text-2xl font-light lg:text-[#A06056] text-white">
+        <div className="mx-auto h-full flex flex-col items-start ">
+          <header className="lg:w-[60%] mx-auto py-6 flex justify-between items-center space-x-8  max-sm:w-full max-sm:justify-around">
+            <h1 className="text-3xl font-light font-[Merrisweather] lg:text-[#A06056] text-white">
               antic
             </h1>
             <nav className="max-sm:hidden block">
@@ -44,7 +48,7 @@ const Header = () => {
             </Drawer>
           </header>
           <div className="w-full lg:w-[60%] mx-auto h-full flex flex-col justify-center ">
-            <h2 className="text-white lg:text-[#A06056] uppercase text-sm mb-6 text-center lg:text-start">
+            <h2 className="font-[Varta] text-white lg:text-[#A06056] uppercase text-sm mb-6 text-center lg:text-start lg:mb-12">
               Home design
             </h2>
             <h2 className="text-4xl lg:text-5xl text-white lg:text-[#A06056] font-light mb-4 leading-snug w-full lg:w-2/4  text-center lg:text-start">

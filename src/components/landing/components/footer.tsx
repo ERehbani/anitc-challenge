@@ -5,11 +5,11 @@ import imgFooter from "/public/imgFooter.jpeg";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#f8f5f1] text-gray-700 py-16">
-      <div className="container mx-auto px-4 max-md:w-fit">
+    <footer className="bg-[#f8f5f1] text-gray-700 py-16 ">
+      <div className="px-4 max-md:w-fit w-[80%] mx-auto">
         <div className="grid grid-cols-6 gap-8 max-md:flex max-md:flex-col max-md:items-start">
           <div className="col-span-1">
-            <h2 className="text-3xl font-serif mb-6">antic</h2>
+            <h2 className="text-4xl font-serif mb-6">antic</h2>
           </div>
           <div className="col-span-1">
             <h3 className="font-semibold mb-4">Products</h3>

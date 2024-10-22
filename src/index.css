@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Varta", serif;
+}
+
 
 @keyframes scroll {
   0% {
@@ -20,4 +24,8 @@
   .animate-scroll {
     animation: none;
   }
+}
+
+h2 {
+  font-family: "Merriweather", serif;;
 }
