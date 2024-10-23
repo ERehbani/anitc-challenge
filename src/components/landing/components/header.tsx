@@ -18,7 +18,7 @@ const Header = () => {
           className="absolute inset-0 w-full h-screen object-cover lg:static lg:w-full"
         />
         <Button>
-          <div className="absolute top-11 right-12 border-2 border-white rounded-full p-2 flex flex-col items-center">
+          <div className="max-sm:hidden absolute top-11 right-12 border-2 border-white rounded-full p-2 flex flex-col items-center">
             <img src={chatMessage} alt="chat" />
           </div>
         </Button>
