@@ -5,7 +5,7 @@ import {
   DrawerHeader,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-import { ChevronDown, Menu, MessageCircle } from "lucide-react";
+import { ChevronDown, Menu } from "lucide-react";
 import chatMessage from "../../../../public/chat.svg";
 
 const Header = () => {
