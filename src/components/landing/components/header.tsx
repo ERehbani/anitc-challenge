@@ -5,7 +5,8 @@ import {
   DrawerHeader,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-import { ChevronDown, Menu } from "lucide-react";
+import { ChevronDown, Menu, MessageCircle } from "lucide-react";
+import chatMessage from "../../../../public/chat.svg";
 
 const Header = () => {
   return (
@@ -16,15 +17,20 @@ const Header = () => {
           alt="Elegant copper pendant lights"
           className="absolute inset-0 w-full h-screen object-cover lg:static lg:w-full"
         />
+        <Button>
+          <div className="absolute top-11 right-12 border-2 border-white rounded-full p-2 flex flex-col items-center">
+            <img src={chatMessage} alt="chat" />
+          </div>
+        </Button>
       </div>
       <div className="relative h-full lg:static lg:w-full">
         <div className="mx-auto h-full flex flex-col items-start ">
-          <header className="lg:w-[60%] mx-auto py-6 flex justify-between items-center space-x-8  max-sm:w-full max-sm:justify-around">
-            <h1 className="text-3xl font-light font-[Merrisweather] lg:text-[#A06056] text-white">
+          <header className="lg:w-[60%] mx-auto py-11 flex justify-around items-center space-x-8  max-sm:w-full max-sm:justify-around">
+            <h1 className="text-4xl font-semibold font-[Merrisweather] lg:text-[#A06056] text-white">
               antic
             </h1>
             <nav className="max-sm:hidden block">
-              <ul className="flex space-x-6 text-sm lg:text-[#706458] text-white">
+              <ul className="flex space-x-6 text-lg lg:text-[#706458] text-white mt-2">
                 <li>Products</li>
                 <li>Rooms</li>
                 <li>Services</li>
